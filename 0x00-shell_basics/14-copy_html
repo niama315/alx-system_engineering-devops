@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -u --exclude='*/' --include='*html' --prune-empty-dirs . ../
+cp -un *.html ../
